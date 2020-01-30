@@ -1,0 +1,51 @@
+html {
+
+}
+
+.logo {
+    width: 20%;
+    margin-bottom: 2%;
+}
+
+img {
+    border-radius: 5%;
+    margin: .5%;
+    width: 45%;
+    
+}
+
+.Hero {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+@media screen and (min-width: 640px) {
+    .Hero {
+        flex: none;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 20%;
+        
+    }
+
+    img {
+       width: 55%;
+    }
+}
+@media screen and (min-width: 960px) {
+    .Hero {
+        flex: none;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-left: 10%;
+        
+    }
+
+    img {
+        width: 60%;
+    }
+}
