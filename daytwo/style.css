@@ -1,0 +1,168 @@
+html {
+
+    box-sizing: border-box;
+
+}
+
+body {
+
+    background-color: rgb(19, 29, 39);
+
+}
+
+.logo{
+
+    width: 40%%;
+    height: auto;
+    position: relative;
+    left: 1%;
+    
+
+}
+
+.mainimg {
+    
+    max-width: 75%;
+    border-radius: 25% 10%;
+    margin-left: 12%;
+    box-shadow: 20px 20px 30px;
+    
+}
+ul {
+    display: flex;
+    position: fixed;
+    right: 20%;
+    
+
+}
+li {
+
+    
+    list-style-position: inside;
+    text-align: center;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 3%;
+    font-size: 3em;
+    text-decoration: underline;
+    
+
+}
+
+a {
+
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10%;
+
+}
+
+.description {
+
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    float: left;
+    width: 20%;
+    margin-left: 27%;
+    opacity: 50%;
+    font-size: 1.2rem;
+    border-right: 2px solid white;
+    padding-right: 2%;
+    line-height: 150%;
+
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 5em;
+    font-family: 'Roboto Condensed', sans-serif;
+    border-bottom: 2px solid rgb(6, 255, 186);
+    margin-right: 10%;
+    margin-left: 10%;
+    
+}
+
+p {
+
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.5em;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.table {
+    color: white;
+    background-attachment: fixed;
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: dodgerblue;
+    box-shadow: inset 10px 7px 20px black;
+   
+   
+    text-shadow: 5px 1px 5px black;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    margin-left: auto;
+    margin-right: auto;
+    list-style-type: none;
+    margin-bottom: 10%;
+    
+    
+}
+
+ol {
+    list-style: none;
+}
+
+@media screen and (max-width: 750px){
+    li {
+        font-size: 2.5em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .wrapper {
+        grid-template-columns: none;
+        
+  
+    }
+    li {
+    color: white;
+    background-attachment: fixed;
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: dodgerblue;
+    box-shadow: inset 10px 7px 20px black;
+    text-decoration: none;
+    margin-right: 10%;
+    margin-left: 5%;
+    list-style-type: none;
+    }
+    .mainimg{
+      
+    } 
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        
+    }
+    h1 {
+        font-size: 2.7em;
+    }
+    .table {
+        font-size: 1.7em;
+    }
+
+    p { 
+        margin: 10%;
+    }
+}
